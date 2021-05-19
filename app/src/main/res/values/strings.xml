@@ -1,0 +1,108 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Covid App</string>
+    <string name="title_activity_login2">LoginActivity2</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="welcome_you_are_logged_in">Welcome! You are Logged In</string>
+    <string name="logout">LogOut</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="not_registered_sign_up_here">Not Registered? Sign up here</string>
+    <string name="button">Button</string>
+    <string name="sign_up">Sign up</string>
+    <string name="already_have_an_account_sign_in_here">Already have an account? Sign in here</string>
+
+    <string name="submit">submit</string>
+    <string name="password">Password</string>
+    <string name="proceed">Proceed</string>
+    <string name="covid_19">Covid-19</string>
+    <string name="serious">Serious</string>
+    <string name="_12_786">12,786</string>
+    <string name="_9_750">9,750</string>
+    <string name="death">Death</string>
+    <string name="go">Go</string>
+    <string name="my_country">My Country</string>
+    <string name="global">Global</string>
+    <string name="total">Total</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="affected">Affected</string>
+    <string name="_6_67_765">6,67,765</string>
+    <string name="active">Active</string>
+    <string name="_3_70_567">3,70,567</string>
+    <string name="spread_of_virus">Spread of virus</string>
+    <string name="see_all">See All</string>
+    <string name="recovered">Recovered</string>
+    <string name="_5_765">5,765</string>
+    <string name="if_you_feel_sick_with_any_of_covid_19_symptoms_nplease_call_or_sms_us_immediately_for_help">If you feel sick with any of covid-19 symptoms\nplease call or SMS us immediately for help.</string>
+    <string name="call_now">Call Now</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="see_your_14_days_routine">See Your 14 Days Routine</string>
+    <string name="prevention">Prevention</string>
+    <string name="are_you_feeling_sick">Are you feeling sick?</string>
+
+    <string name="statistics">Statistics</string>
+    <string name="your_country_statistics">Your Country Statistics</string>
+    <string name="if_you_feel_sick_with_any_of_covid_19_symptoms_nplease_call_us_immediately_for_help">if_you_feel_sick_with_any_of_covid_19_symptoms_\nplease_call_us_immediately_for_help</string>
+    <string name="if_you_feel_sick_with_any_of_covid_19_symptoms_please_call_us_immediately_for_help">if_you_feel_sick_with_any_of_covid_19_symptoms_please_call_us_immediately_for_help</string>
+    <string name="what_are_your_health_problems">What are your health problems?</string>
+    <string name="Covid">Covid</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+    <string name="wake_up">Wake Up</string>
+
+    <string name="yoga_pranayam">Yoga Pranayam</string>
+    <string name="hot_lemon_water">Hot Lemon Water</string>
+
+
+    <string name="kadha">Kadha</string>
+    <string name="lunch">Lunch</string>
+    <string name="steem">Steem</string>
+    <string name="rest">Rest</string>
+    <string name="yoga_and_aerobics">Yoga and Aerobics</string>
+    <string name="dinner">Dinner</string>
+    <string name="hot_milk">Hot Milk</string>
+    <string name="Logout">Logout</string>
+    <string name="news">News</string>
+    <string name="signout">SignOut</string>
+    <string name="thanks_visit_again_and_take_care">Thanks! Visit Again and Take Care</string>
+    <string name="log_out">Log Out</string>
+    <string name="lo">Lo</string>
+    <string name="check_your_vaccination_date">Check your vaccination date</string>
+
+    <string name="hello_here">hello here</string>
+    <string name="diabetes">diabetes</string>
+    <string name="others">others</string>
+    <string name="start_your_vacciantion_drive">Start your vacciantion drive</string>
+
+    <string name="check_routine_for_bloodpressure_patient">Check routine for BloodPressure patient</string>
+    <string name="check_routine_for_diabetes_patient">Check routine for diabetes patient</string>
+    <string name="check_routine_for_other_patient">Check routine for other patient</string>
+    <string name="when_to_take_vaccine">When To Take Vaccine?</string>
+    <string name="two_doses_of_vaccine_28_days_apart_need_to_be_taken_by_an_individual_to_complete_the_vaccination_schedule">Two doses of vaccine, 28 days apart, need to be taken by an individual to complete the vaccination schedule.</string>
+    <string name="covidwarrior">CovidWarrior</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="names">
+        <item> Diabetes  </item>
+        <item>  Blood Pressure </item>
+        <item>  Low Sugar </item>
+    </string-array>
+
+
+</resources>
