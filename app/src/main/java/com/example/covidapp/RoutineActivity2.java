@@ -3,13 +3,16 @@ package com.example.covidapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 public class RoutineActivity2 extends AppCompatActivity {
 
     ImageView back;
+    Button vaccinate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +20,7 @@ public class RoutineActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_routine2);
 
         back = findViewById(R.id.imageView8);
+        vaccinate = findViewById(R.id.button9);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,5 +32,16 @@ public class RoutineActivity2 extends AppCompatActivity {
 
             }
         });
+
+        vaccinate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://selfregistration.cowin.gov.in/"));
+                startActivity(browserIntent);
+                finish();
+            }
+        });
+
     }
 }

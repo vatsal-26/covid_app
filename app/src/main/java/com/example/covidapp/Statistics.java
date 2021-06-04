@@ -53,7 +53,7 @@ public class Statistics extends AppCompatActivity {
 
     private void fetchdata() {
 
-        String url = "https://corona.lmao.ninja/v2/all";
+        String url = "https://disease.sh/v3/covid-19/countries/india";
         StringRequest request = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
                     @Override
@@ -64,7 +64,7 @@ public class Statistics extends AppCompatActivity {
                             tvactive.setText(jsonObject.getString("active"));
                             tvrecovered.setText(jsonObject.getString("recovered"));
                             tvaffected.setText(jsonObject.getString("todayCases"));
-                            tvdeath.setText(jsonObject.getString("todayDeaths"));
+                            tvdeath.setText(jsonObject.getString("deaths"));
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }

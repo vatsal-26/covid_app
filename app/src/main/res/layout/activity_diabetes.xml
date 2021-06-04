@@ -25,211 +25,148 @@
             app:srcCompat="@drawable/back"
             android:contentDescription="@string/todo" />
 
-        <TextView
-            android:id="@+id/textView23"
-            android:layout_width="367dp"
-            android:layout_height="52dp"
-            android:layout_marginBottom="704dp"
-            android:layout_marginEnd="34dp"
-            android:layout_marginStart="34dp"
-            android:layout_marginTop="90dp"
-            android:background="#7234FE"
-            android:padding="14dp"
-            android:text="@string/yoga_pranayam"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="parent"
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="334dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="20dp"
+            android:entries="@array/Day1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
-        <TextView
-            android:id="@+id/textView24"
-            android:layout_width="362dp"
-            android:layout_height="48dp"
-            android:layout_marginBottom="547dp"
-            android:layout_marginEnd="34dp"
-            android:layout_marginStart="34dp"
-            android:layout_marginTop="22dp"
-            android:background="#7234FE"
-            android:padding="14dp"
-            android:text="@string/hot_lemon_water"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="parent"
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="334dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:entries="@array/Day2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView23"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/spinner2" />
 
-        <TextView
-            android:id="@+id/textView25"
-            android:layout_width="362dp"
-            android:layout_height="51dp"
-            android:layout_marginBottom="564dp"
-            android:layout_marginEnd="34dp"
-            android:layout_marginStart="34dp"
-            android:layout_marginTop="18dp"
-            android:background="#7234FE"
-            android:padding="14dp"
-            android:text="@string/hot_milk"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="parent"
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="334dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="12dp"
+            android:entries="@array/Day3"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView24"
-            tools:ignore="MissingConstraints" />
+            app:layout_constraintTop_toBottomOf="@+id/spinner3" />
 
-        <TextView
-            android:id="@+id/textView26"
-            android:layout_width="358dp"
-            android:layout_height="55dp"
-            android:layout_marginBottom="384dp"
-            android:layout_marginEnd="34dp"
-            android:layout_marginStart="34dp"
-            android:layout_marginTop="18dp"
-            android:background="#7234FE"
-            android:padding="14dp"
-            android:text="@string/steem"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="parent"
+        <Spinner
+            android:id="@+id/spinner6"
+            android:layout_width="334dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="12dp"
+            android:entries="@array/Day4"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView25"
-            app:layout_constraintVertical_bias="0.044" />
+            app:layout_constraintTop_toBottomOf="@+id/spinner4" />
 
-        <TextView
-            android:id="@+id/textView27"
-            android:layout_width="360dp"
-            android:layout_height="48dp"
-            android:layout_marginBottom="316dp"
-            android:layout_marginEnd="34dp"
-            android:layout_marginStart="34dp"
-            android:layout_marginTop="18dp"
-            android:background="#7234FE"
-            android:padding="14dp"
-            android:text="@string/kadha"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="parent"
+        <Spinner
+            android:id="@+id/spinner7"
+            android:layout_width="334dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="12dp"
+            android:entries="@array/Day5"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView26"
-            app:layout_constraintVertical_bias="0.037" />
+            app:layout_constraintTop_toBottomOf="@+id/spinner6" />
 
-        <TextView
-            android:id="@+id/textView28"
-            android:layout_width="354dp"
-            android:layout_height="46dp"
-            android:layout_marginBottom="244dp"
-            android:layout_marginEnd="34dp"
-            android:layout_marginStart="34dp"
-            android:layout_marginTop="22dp"
-            android:background="#7234FE"
-            android:padding="14dp"
-            android:text="@string/lunch"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="parent"
+        <Spinner
+            android:id="@+id/spinner8"
+            android:layout_width="334dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="12dp"
+            android:entries="@array/Day6"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView27"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/spinner7" />
 
-        <TextView
-            android:id="@+id/textView29"
-            android:layout_width="347dp"
-            android:layout_height="49dp"
-            android:layout_marginBottom="176dp"
-            android:layout_marginEnd="34dp"
-            android:layout_marginStart="34dp"
-            android:layout_marginTop="18dp"
-            android:background="#7234FE"
-            android:padding="14dp"
-            android:text="@string/steem"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="parent"
+        <Spinner
+            android:id="@+id/spinner9"
+            android:layout_width="334dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="12dp"
+            android:entries="@array/Day7"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView28"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/spinner8" />
 
-        <TextView
-            android:id="@+id/textView30"
-            android:layout_width="351dp"
-            android:layout_height="47dp"
-            android:layout_marginBottom="105dp"
-            android:layout_marginEnd="34dp"
-            android:layout_marginStart="34dp"
-            android:layout_marginTop="21dp"
-            android:background="#7234FE"
-            android:padding="14dp"
-            android:text="@string/rest"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="parent"
+        <Spinner
+            android:id="@+id/spinner10"
+            android:layout_width="334dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="12dp"
+            android:entries="@array/Day8"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView29"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/spinner9" />
 
-        <TextView
-            android:id="@+id/textView32"
-            android:layout_width="348dp"
-            android:layout_height="48dp"
-            android:layout_marginBottom="136dp"
-            android:layout_marginEnd="34dp"
-            android:layout_marginStart="34dp"
-            android:layout_marginTop="23dp"
-            android:background="#7234FE"
-            android:padding="14dp"
-            android:text="@string/yoga_and_aerobics"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="parent"
+        <Spinner
+            android:id="@+id/spinner11"
+            android:layout_width="334dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="12dp"
+            android:entries="@array/Day9"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView30" />
+            app:layout_constraintTop_toBottomOf="@+id/spinner10" />
 
-        <TextView
-            android:id="@+id/textView34"
-            android:layout_width="344dp"
-            android:layout_height="48dp"
-            android:layout_marginBottom="64dp"
-            android:layout_marginEnd="34dp"
-            android:layout_marginStart="34dp"
-            android:layout_marginTop="22dp"
-            android:background="#7234FE"
-            android:padding="14dp"
-            android:text="@string/dinner"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="parent"
+        <Spinner
+            android:id="@+id/spinner12"
+            android:layout_width="334dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="12dp"
+            android:entries="@array/Day12"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView32" />
+            app:layout_constraintTop_toBottomOf="@+id/spinner11" />
 
-        <TextView
-            android:id="@+id/textView35"
-            android:layout_width="344dp"
-            android:layout_height="45dp"
-            android:layout_marginEnd="34dp"
-            android:layout_marginStart="34dp"
-            android:layout_marginTop="14dp"
-            android:background="#7234FE"
-            android:padding="14dp"
-            android:text="@string/hot_milk"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="parent"
+        <Spinner
+            android:id="@+id/spinner13"
+            android:layout_width="334dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="12dp"
+            android:entries="@array/Day12"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView34"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/spinner12" />
+
+        <Spinner
+            android:id="@+id/spinner14"
+            android:layout_width="334dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="12dp"
+            android:entries="@array/Day12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner13" />
+
+        <Spinner
+            android:id="@+id/spinner15"
+            android:layout_width="334dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="12dp"
+            android:entries="@array/Day13"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner14" />
+
+        <Spinner
+            android:id="@+id/spinner16"
+            android:layout_width="334dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="12dp"
+            android:entries="@array/Day14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner15" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

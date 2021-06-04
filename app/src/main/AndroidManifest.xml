@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.covidapp">
-
+    <!-- Allow Internet Permission -->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,17 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CovidApp">
+        <activity android:name=".covac"></activity>
         <activity android:name=".splashscreen">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-        </activity>
-        <activity android:name=".vaccine">
-
         </activity>
         <activity android:name=".others" />
         <activity android:name=".bloodpressure" />
@@ -33,9 +29,7 @@
                Set to true if your app is Standalone, that is, it does not require the handheld
                app to run.
         -->
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
 
         <meta-data
             android:name="com.google.android.wearable.standalone"
@@ -47,9 +41,7 @@
     </application>
 
     <uses-feature android:name="android.hardware.type.watch" />
-    <!--Allow Internet Permission-->
     <uses-permission android:name="android.permission.INTERNET" />
-
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 

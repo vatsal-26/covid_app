@@ -95,13 +95,139 @@
     <string name="when_to_take_vaccine">When To Take Vaccine?</string>
     <string name="two_doses_of_vaccine_28_days_apart_need_to_be_taken_by_an_individual_to_complete_the_vaccination_schedule">Two doses of vaccine, 28 days apart, need to be taken by an individual to complete the vaccination schedule.</string>
     <string name="covidwarrior">CovidWarrior</string>
+    <string name="day_1">Day 1</string>
+    <string name="day_2">day_2</string>
+    <string name="first_day">First day</string>
+    <string name="second_day">Second Day</string>
+    <string name="get_yourself_a_vaccine">Get Yourself A Vaccine.</string>
+    <string name="get_yourself_vaccinated">Get Yourself Vaccinated</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string-array name="names">
-        <item> Diabetes  </item>
-        <item>  Blood Pressure </item>
-        <item>  Low Sugar </item>
+    <string-array name="Day1">
+        <item> Day 1 </item>
+        <item> M1 - On Rising  </item>
+        <item> M2 - BreakFast </item>
+        <item> M3 - Mid-Meal </item>
+        <item> M4 - Lunch </item>
+        <item> M5 - Mid-Meal </item>
+    </string-array>
+
+    <string-array name="Day2">
+        <item> Day 2 </item>
+        <item> M1 - Date and walnut  </item>
+        <item> M2 - Idli Sambhar </item>
+        <item> M3 - Rasam with pepper </item>
+        <item> M4 - Ajwain and namak paratha </item>
+        <item> M5 - Cashews with jaggery </item>
+    </string-array>
+
+    <string-array name="Day3">
+        <item> Day 3 </item>
+        <item> M1 - Pistas  </item>
+        <item> M2 - Ragi dosa with gun powder </item>
+        <item> M3 - Dry coconut </item>
+        <item> M4 - Rajma Chawal </item>
+        <item> M5 - Mathri </item>
+    </string-array>
+
+    <string-array name="Day4">
+        <item> Day 4 </item>
+        <item> M1 - Cashews and soaked raisins  </item>
+        <item> M2 - Upma </item>
+        <item> M3 - Nimbu sherbet </item>
+        <item> M4 - Ghee and namak roasted </item>
+        <item> M5 - Rice with Jeera tadka </item>
+    </string-array>
+
+    <string-array name="Day5">
+        <item> Day 5 </item>
+        <item> M1 - Cashews and soaked raisins  </item>
+        <item> M2 - Upma </item>
+        <item> M3 - Nimbu sherbet </item>
+        <item> M4 - Ghee and namak roasted </item>
+        <item> M5 - Rice with Jeera tadka </item>
+    </string-array>
+
+    <string-array name="Day6">
+        <item> Day 6 </item>
+        <item> M1 - Dates and walnuts  </item>
+        <item> M2 - Koki </item>
+        <item> M3 - Making and eating pista laddoo</item>
+        <item> M4 - Chana and chawal </item>
+        <item> M5 - Thandai </item>
+    </string-array>
+
+    <string-array name="Day7">
+        <item> Day 7 </item>
+        <item> M1 - Khareek  </item>
+        <item> M2 - Khakra and chai </item>
+        <item> M3 - Apricot </item>
+        <item> M4 - Amboli and achaar </item>
+        <item> M5 - Make and eat shankarpara </item>
+    </string-array>
+
+    <string-array name="Day8">
+        <item> Day 8 </item>
+        <item> M1 - On Rising  </item>
+        <item> M2 - BreakFast </item>
+        <item> M3 - Mid-Meal </item>
+        <item> M4 - Lunch </item>
+        <item> M5 - Mid-Meal </item>
+    </string-array>
+
+    <string-array name="Day9">
+        <item> Day 9 </item>
+        <item> M1 - Date and walnut  </item>
+        <item> M2 - Idli Sambhar </item>
+        <item> M3 - Rasam with pepper </item>
+        <item> M4 - Ajwain and namak paratha </item>
+        <item> M5 - Cashews with jaggery </item>
+    </string-array>
+
+    <string-array name="Day10">
+        <item> Day 10 </item>
+        <item> M1 - Pistas  </item>
+        <item> M2 - Ragi dosa with gun powder </item>
+        <item> M3 - Dry coconut </item>
+        <item> M4 - Rajma Chawal </item>
+        <item> M5 - Mathri </item>
+    </string-array>
+
+    <string-array name="Day11">
+        <item> Day 11 </item>
+        <item> M1 - Cashews and soaked raisins  </item>
+        <item> M2 - Upma </item>
+        <item> M3 - Nimbu sherbet </item>
+        <item> M4 - Ghee and namak roasted </item>
+        <item> M5 - Rice with Jeera tadka </item>
+    </string-array>
+
+    <string-array name="Day12">
+        <item> Day 12 </item>
+        <item> M1 - Cashews and soaked raisins  </item>
+        <item> M2 - Upma </item>
+        <item> M3 - Nimbu sherbet </item>
+        <item> M4 - Ghee and namak roasted </item>
+        <item> M5 - Rice with Jeera tadka </item>
+    </string-array>
+
+    <string-array name="Day13">
+        <item> Day 13 </item>
+        <item> M1 - Dates and walnuts  </item>
+        <item> M2 - Koki </item>
+        <item> M3 - Making and eating pista laddoo</item>
+        <item> M4 - Chana and chawal </item>
+        <item> M5 - Thandai </item>
+    </string-array>
+
+    <string-array name="Day14">
+        <item> Day 14 </item>
+        <item> M1 - Khareek  </item>
+        <item> M2 - Khakra and chai </item>
+        <item> M3 - Apricot </item>
+        <item> M4 - Amboli and achaar </item>
+        <item> M5 - Make and eat shankarpara </item>
     </string-array>
 
 
