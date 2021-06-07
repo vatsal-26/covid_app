@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                                 Toast.makeText(MainActivity.this,"SignUp Unsuccessful, Please Try Again!", Toast.LENGTH_SHORT).show();
                             }
                             else {
-                                startActivity(new Intent(MainActivity.this, HomeActivity2.class));
+                                startActivity(new Intent(MainActivity.this, LoginActivity2.class));
                             }
                         }
                     });

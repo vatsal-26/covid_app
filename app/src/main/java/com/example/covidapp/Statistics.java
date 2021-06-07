@@ -63,7 +63,7 @@ public class Statistics extends AppCompatActivity {
 
                             tvactive.setText(jsonObject.getString("active"));
                             tvrecovered.setText(jsonObject.getString("recovered"));
-                            tvaffected.setText(jsonObject.getString("todayCases"));
+                            tvaffected.setText(jsonObject.getString("cases"));
                             tvdeath.setText(jsonObject.getString("deaths"));
                         } catch (JSONException e) {
                             e.printStackTrace();

@@ -19,20 +19,20 @@
             android:layout_width="141dp"
             android:layout_height="45dp"
             android:layout_marginTop="32dp"
+            android:background="@drawable/call_button"
+            android:drawableLeft="@drawable/ic_phone"
             android:drawablePadding="8dp"
-            android:drawableStart="@drawable/ic_phone"
             android:fontFamily="@font/graphikmedium"
-            android:paddingStart="16dp"
-            android:text="@string/call_now"
+            android:paddingLeft="16dp"
+            android:text="Call Now"
             android:textAlignment="textStart"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:layout_constraintEnd_toStartOf="@+id/button2"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView3"
-            tools:ignore="RtlSymmetry" />
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
         <Button
             android:id="@+id/button2"
@@ -40,10 +40,9 @@
             android:layout_height="45dp"
             android:background="@drawable/send_sms_button"
             android:drawablePadding="8dp"
-            android:drawableStart="@drawable/ic_message_circle"
             android:fontFamily="@font/graphikmedium"
-            android:paddingStart="16dp"
-            android:text="@string/statistics"
+            android:paddingLeft="16dp"
+            android:text="Statistics"
             android:textAlignment="textStart"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
@@ -52,9 +51,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/button"
-            app:layout_constraintTop_toTopOf="@+id/button"
-            tools:ignore="RtlSymmetry" />
-
+            app:layout_constraintTop_toTopOf="@+id/button" />
 
         <Button
             android:id="@+id/rout"
