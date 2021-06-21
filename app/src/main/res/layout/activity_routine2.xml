@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:fillViewport="true"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical"
+    tools:context=".RoutineActivity2">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fillViewport="true"
-        tools:context=".RoutineActivity2">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/imageView8"
@@ -25,68 +25,96 @@
             app:srcCompat="@drawable/back"
             android:contentDescription="@string/todo" />
 
-        <ImageView
-            android:id="@+id/imageView11"
-            android:layout_width="375dp"
-            android:layout_height="313dp"
-            android:layout_marginBottom="356dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/stat_button" />
-
-        <ImageView
-            android:id="@+id/imageView12"
-            android:layout_width="333dp"
-            android:layout_height="241dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.83"
-            app:srcCompat="@drawable/stat_button" />
-
-        <TextView
-            android:id="@+id/textView22"
-            android:layout_width="292dp"
-            android:layout_height="205dp"
-            android:text="@string/two_doses_of_vaccine_28_days_apart_need_to_be_taken_by_an_individual_to_complete_the_vaccination_schedule"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView12"
-            android:textSize="27dp"
-            android:textColor="@color/white"
-            android:fontFamily="@font/graphikmedium"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/imageView12"
-            app:layout_constraintVertical_bias="0.49" />
-
-        <ImageView
-            android:id="@+id/imageView9"
-            android:layout_width="606dp"
-            android:layout_height="252dp"
-            android:layout_marginBottom="76dp"
-            app:layout_constraintBottom_toTopOf="@+id/textView22"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.502"
-            app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/vaccine" />
-
-        <Button
-            android:id="@+id/button9"
-            android:layout_width="349dp"
-            android:layout_height="67dp"
-            android:layout_marginEnd="77dp"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="10dp"
-            android:text="Register Here For Vaccination."
-            android:textSize="17dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.258"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:fillViewport="true"-->
+<!--        tools:context=".RoutineActivity2">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView8"-->
+<!--            android:layout_width="35dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:background="#7234FE"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:srcCompat="@drawable/back"-->
+<!--            android:contentDescription="@string/todo" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView11"-->
+<!--            android:layout_width="375dp"-->
+<!--            android:layout_height="313dp"-->
+<!--            android:layout_marginBottom="356dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:srcCompat="@drawable/stat_button" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView12"-->
+<!--            android:layout_width="333dp"-->
+<!--            android:layout_height="241dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.83"-->
+<!--            app:srcCompat="@drawable/stat_button" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView22"-->
+<!--            android:layout_width="292dp"-->
+<!--            android:layout_height="205dp"-->
+<!--            android:text="@string/two_doses_of_vaccine_28_days_apart_need_to_be_taken_by_an_individual_to_complete_the_vaccination_schedule"-->
+<!--            app:layout_constraintBottom_toBottomOf="@+id/imageView12"-->
+<!--            android:textSize="27dp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:fontFamily="@font/graphikmedium"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.495"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/imageView12"-->
+<!--            app:layout_constraintVertical_bias="0.49" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView9"-->
+<!--            android:layout_width="606dp"-->
+<!--            android:layout_height="252dp"-->
+<!--            android:layout_marginBottom="76dp"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/textView22"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.502"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:srcCompat="@drawable/vaccine" />-->
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="623dp"
+                android:layout_height="102dp"
+                android:layout_marginEnd="77dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="900dp"
+                android:text="Register Here For Vaccination."
+                android:textSize="17dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.258"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+            <!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+    </RelativeLayout>
 
 </androidx.core.widget.NestedScrollView>
+

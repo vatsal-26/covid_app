@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.example.covidapp.view.Registration_of_vaccine;
 import com.google.firebase.auth.FirebaseAuth;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,6 +22,7 @@ public class HomeActivity2 extends AppCompatActivity {
     Button statis;
     Button call;
     Button diab, blood, other;
+    Button vaccine_regis;
     FirebaseAuth mFirebaseAuth;
     private FirebaseAuth.AuthStateListener mAuthStateListener;
     Button route;
@@ -31,6 +33,7 @@ public class HomeActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home2);
         call = (Button)findViewById(R.id.button);
+        vaccine_regis = (Button)findViewById(R.id.button4);
         statis = (Button)findViewById(R.id.button2);
         diab = (Button)findViewById(R.id.button9);
         blood = (Button)findViewById(R.id.button8);
@@ -57,6 +60,15 @@ public class HomeActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent routine = new Intent(HomeActivity2.this, RoutineActivity2.class);
+                startActivity(routine);
+
+            }
+        });
+
+        vaccine_regis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent routine = new Intent(HomeActivity2.this, Registration_of_vaccine.class);
                 startActivity(routine);
 
             }
